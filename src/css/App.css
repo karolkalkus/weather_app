@@ -1,0 +1,98 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #fff;
+}
+
+.main{
+  margin: 0 auto;
+  max-width: 1200px;
+  text-align: center;
+}
+.title{
+  font-size: 30px;
+  padding: 20px 0;
+  color: #535961;
+}
+
+.container{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.box{
+  width: 280px;
+  font-size: 18px;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  list-style: none;
+  border: 1px solid #eee;
+  color: #888
+}
+
+.city_title{
+  margin-top: 10px;
+  font-size: 28px;
+}
+
+.occur{
+  margin: 10px;
+  padding-bottom: 10px;
+  font-size: 60px;
+}
+
+.list_item{
+  font-size: 22px;
+}
+
+.buttons_wrapper{
+  padding-bottom: 20px;
+}
+
+.btn{
+  padding: 10px 20px;
+  background-color: #535961;
+  color: white;
+  border-radius: 2px;
+  font-weight: bold;
+  border: none;
+  outline: #535961;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.btn:hover{
+  background-color: #333;
+  transform: scale(1.1);
+}
+
+.wi-thermometer{
+  color: rgb(153, 21, 21);
+}
+.wi-celsius{
+  color: rgb(153, 21, 21);
+}
+.wi-humidity{
+  color: #bada55;
+}
+.wi-barometer{
+  color: rgb(80, 49, 219);
+}
+.wi{
+  padding-right: 20px;
+}
+.wi:last-of-type{
+  padding: 0;
+}
+.wi:first-of-type{
+  padding: 0;
+}
